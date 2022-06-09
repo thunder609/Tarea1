@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+ 
+    font-family: Arial, sans-serif; 
+    background: url("../Tarea2/Imagenes/background.png") no-repeat fixed center;
+ 
+}
+
+
+
+body{
+    height: 1080px;
+    width: 720px;
+    font-family: Arial, sans-serif; 
+    background-size: 10rem;
+}
+.contenedor{
+   
+    padding-top: 300px;
+ 
+    width: 600px;
+    height: 400px;
+ display: flex;
+ align-items: center;
+margin-left: 200px;
+ padding-bottom: 200px;
+width:100%;
+position: relative;
+
+ 
+
+    
+}
+.contenedor img{   
+   
+    background: #ffff;
+    margin-left:90px;
+    padding-top: 100px;
+   width: 500px;
+   height: 350px;
+   border-bottom: 20px; 
+   border-radius:  50px ; 
+ ;
+}
+.contendor2  {
+    display: none; 
+    padding-top: 300px;
+ 
+    width: 600px;
+    height: 400px;
+ display: flex;
+ align-items: center;
+margin-left: 200px;
+ padding-bottom: 200px;
+width:100%;
+position: relative;
+
+}
+
+.contenedor2 #img2{   
+   
+    background: #ffff;
+    margin-left:90px;
+    padding-top: 100px;
+   width: 500px;
+   height: 350px;
+   border-bottom: 20px; 
+   border-radius:  50px ; 
+ ;
+}
+.boton{
+     display:inline-flex;       
+       font-size: 40px;
+    width:50px;
+    margin-top: 200px;
+    height: 50px;
+    line-height: 30px;
+    border-radius: 50%;
+
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color:rgb(17, 13, 13);
+    box-shadow: 0 0 10 px rbga(255,255,255,.6);
+     -webkit-transition: all .3s ease;
+     -o-transition: all .3s ease;
+     transition: all .3s ease;
+
+}
+.botond{
+    position: absolute;
+    z-index:auto;
+
+   margin-left: 350px; 
+  
+margin-top: 350px;
+     background: rgb(13, 17, 223);
+     
+}
+.exit{
+    
+    position: absolute;
+    z-index:auto;
+   display:block;
+   margin-left: 350px; 
+  
+margin-top: 350px;
+     background: rgb(226, 141, 124);
+     
+}
+.boton:hover{
+    cursor:pointer;
+    transform: scale(1.2,1.2) ;}
+    .atras{
+        left:18%;
+        top:calc(50%-70%)
+    }
+    .adelante{
+       right:18%;
+        top:calc(50%-70%)
+    }
